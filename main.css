@@ -1,0 +1,279 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+   font-weight: 500;
+   /* color: #120348; */
+   color: #5a7700;
+   margin: 0 auto;
+   /* width: 1200px; */
+   background-color: #ffdd78;
+   /* Purple background colour */
+}
+
+.navbar{
+  border-radius: 0px;
+  top: 0;
+  position: fixed;
+  overflow: auto;
+  background-color: #bec4e9;
+  width: 100%
+}
+
+.navbar a{
+  font-size: 1.5em;
+  color: white;
+
+  float: left;
+  position: relative;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  width: 20%;
+}
+.navbar a:hover{
+  background-color: #ffdd78;
+  cursor: pointer;
+  /* font-weight: 700; */
+}
+
+.main {
+
+}
+
+.jumbotron.text-center, .Hi, .Projects, .Art {
+  background-color: #ffdd78;
+  height: 100%;
+  /* position: relative; */
+}
+
+.jumbotron.text-center h1 {
+  font-size: 8em;
+  /* color: #fff0c4; */
+
+}
+
+.jumbotron.text-center p {
+  /* animation: shakeY;
+  animation-duration: 2s; */
+  font-weight: bolder;
+  color: #87b200;
+
+}
+
+.mainPageSelfies {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: nowrap;              /* default value; can be omitted */
+  justify-content: center;
+}
+
+.mainPageSelfies img {
+  margin: 30px;
+}
+
+.selfie {
+  /* display: table-cell; */
+  border-radius: 5px;
+
+  width: 150px;
+  height: 150px;
+  /* margin-top: 20px;
+  float: left;
+  text-align: center;
+  width: 30%; */
+  margin: 25px;
+  padding: 20px;
+  text-align: center;
+  background-color: pink;
+}
+
+.selfie:hover {
+  background-color: #87b200;
+}
+
+
+.hiContent, .sheepRun, .sheepImages, .comp2406 {
+  display: flex;                  
+  flex-direction: row;           
+  flex-wrap: nowrap;            
+  justify-content: center;
+}
+
+.comp2406Content p {
+  text-align: left;
+  max-width: 550px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+/* 
+.comp2406Content video  {
+  margin-top: 20px;
+} */
+
+.comp2406Videos   {
+  flex-wrap: nowrap; 
+  /* margin: 30px; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  max-width: 550px;
+}
+
+.comp2401 {
+  display: block; 
+  text-align: center;
+  justify-content: center;
+}
+
+.comp2401Content {
+  display: inline-block;
+  max-width: 875px;
+  justify-content: center;
+}
+
+
+
+.comp2401Video {
+  display: inline-block;
+  justify-content: center;
+}
+
+
+.videos {
+  margin-right: 200px;
+  max-width: 400px;
+  justify-content: center;
+}
+
+
+.sheepRunContent {
+  /* background-color: #adfbff; */
+  background: linear-gradient(#a4fbff 85%, #98ba52 5%, #468e43 10%);
+  max-width: 500px;
+  max-height: 670px;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+.sheepImages {
+  margin: 70px;
+}
+
+.sheepImages img{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+.img1 img{
+  float: left;
+  max-width: 30em;
+  max-height: 30em;
+  display: inline-block;
+  margin: 30px;
+  /* padding: 20px; */
+
+}
+
+.img1 figcaption {
+  margin: 30px;
+}
+
+.aboutMe p, .sheepRun p {
+  margin: 30px;
+  text-align: left;
+  max-width: 35em;
+}
+
+
+.programming, .imgs, .linkImages {
+  display: flex;                  /* establish flex container */
+  flex-direction: row;            /* default value; can be omitted */
+  flex-wrap: wrap;              /* default value; can be omitted */
+  justify-content: center;
+}
+.programming img {
+  max-width: 170px;
+  max-height: 170px;
+  vertical-align: top;
+  margin-bottom: 15px;
+
+}
+
+.figure1 img {
+  vertical-align: top;
+  margin-bottom: 15px;
+  max-width: 350px;
+  max-height: 300px;
+}
+
+.figure1 figcaption {
+  max-width: 350px;
+  text-align: center;
+
+}
+
+
+.figure, .figure1{
+  margin: 20px;
+}
+
+.figure figcaption {
+  max-width: 170px;
+  text-align: center;
+
+}
+
+
+.imgs img{
+  float: left;
+  max-width: 30em;
+  max-height: 30em;
+  display: inline-block;
+  margin: 30px;
+  /* padding: 20px; */
+
+}
+
+.linkImages a {
+  margin: 50px;
+}
+
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  letter-spacing: 3px;
+  font-size: 5em;
+  font-weight: 800;
+  text-align: center;
+  color: #5a7700;
+  margin-top: 1.5em;
+}
+
+h2, h3, .sheepRun h1, .comp2401Content h1, .comp2406Content h1 {
+  font-size: 3em;
+  font-weight: 800;
+  text-align: center;
+  color: #87b200;
+  /* lighter green color */
+}
+
+
+
+.hidden{
+  visibility: hidden;
+}
