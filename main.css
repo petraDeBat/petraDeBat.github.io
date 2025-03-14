@@ -128,13 +128,13 @@ body {
   max-width: 550px;
 }
 
-.comp2401 {
+.comp2401, .comp3106 {
   display: block; 
   text-align: center;
   justify-content: center;
 }
 
-.comp2401Content {
+.comp2401Content, .comp3106Content {
   display: inline-block;
   max-width: 875px;
   justify-content: center;
@@ -142,7 +142,7 @@ body {
 
 
 
-.comp2401Video {
+.comp2401Video, .comp3106Video {
   display: inline-block;
   justify-content: center;
 }
@@ -264,7 +264,7 @@ h1 {
   margin-top: 1.5em;
 }
 
-h2, h3, .sheepRun h1, .comp2401Content h1, .comp2406Content h1 {
+h2, h3, .sheepRun h1, .comp2401Content h1, .comp2406Content h1, .comp3106Content h1 {
   font-size: 3em;
   font-weight: 800;
   text-align: center;
